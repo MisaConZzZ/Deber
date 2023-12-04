@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float longitud, ancho, area, perimetro;
+
+    printf("Ingrese la longitud del rectangulo: ");
+    scanf("%f", &longitud);
+
+    printf("Ingrese el ancho del rectangulo: ");
+    scanf("%f", &ancho);
+
+    area = longitud * ancho;
+    perimetro = 2 * (longitud + ancho);
+
+    printf("El area del rectangulo es: %.2f\n", area);
+    printf("El perimetro del rectangulo es: %.2f\n", perimetro);
+
+    return 0;
+}
